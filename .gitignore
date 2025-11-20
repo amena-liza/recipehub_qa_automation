@@ -1,0 +1,11 @@
+logs
+node_modules
+.idea
+package-lock.json
+.env
+*apk
+app/.DS_Store
+allure-results
+allure-report
+*zip
+.DS_Store
