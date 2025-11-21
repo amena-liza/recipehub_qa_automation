@@ -7,6 +7,17 @@ class ObjectsAndroid extends Objects {
     return driver.$('~RecipeHub');
   }
 
+  async getRecipeDetailsPageBackButton() {
+    return driver.$('//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.Button[1]');
+  }
+
+
+  async getRecipeFavoritePageBackButton() {
+    return driver.$('//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.Button');
+  }
+
+
+
 
 }
  

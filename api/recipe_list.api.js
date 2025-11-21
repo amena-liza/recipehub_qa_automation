@@ -23,7 +23,7 @@ class RecipeListApi {
             }
         });
 
-        console.log(response.data);
+        // console.log(response.data);
         // Apply filter for difficulties;
         return response?.data?.recipes;
 
